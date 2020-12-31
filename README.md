@@ -2,7 +2,7 @@
 
 This is a basic implementation of the game Blackjack from CS1114 using Object Oriented Programming.
 
-Provided below is the background for CS1114 Blackjack as given by the instructor:
+Provided below is the **quoted** background for CS1114 Blackjack as given by the instructor:
 
 "
 Battleship is a famous two-player board game. Each player is given 5 ships: a Carrier, a Battleship, a Cruiser, a Submarine, and
