@@ -4,7 +4,7 @@ This is a basic implementation of the game Blackjack from CS1114 using Object Or
 
 Provided below is the **quoted** background for CS1114 Blackjack as given by the instructor:
 
-"
+**"**
 Battleship is a famous two-player board game. Each player is given 5 ships: a Carrier, a Battleship, a Cruiser, a Submarine, and
 Destroyer. The objective of Battleship is to be the first player to sink the other player's 5 ships. The first player to sink the opponent's
 ships wins. Each ship occupies a specific number of positions on the board: Carrier (5 spaces), Battleship (4 spaces), Cruiser (3
@@ -32,4 +32,4 @@ but is managed by the program (not by a player). The player does not need to man
 reflects the results of the coordinate guesses of an attack. The player can only miss on 20 ( MAX_MISSES ) coordinate guesses during
 the course of the game. If the player sinks all ships before exhausting this number of guesses, the player wins. Otherwise, the player
 loses.
-"
+**"**
