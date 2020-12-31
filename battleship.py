@@ -113,11 +113,11 @@ class Ship:
                 self.start = (row, column)
         else:
             self.positions[self.start] = False
-            column = column + 1
+            column += 1
             self.start = (row, column)
             for i in range(num_positions - 1):
                 self.positions[self.start] = False
-                column = column + 1
+                column += 1
                 self.start = (row, column)
 
 
@@ -159,7 +159,7 @@ class Game:
         """
         row = MIN_ROW_LABEL
         for i in range(NUM_ROWS):
-            self.board[row] = [BLANK_CHAR] * 10
+            self.board[row] = [BLANK_CHAR] * NUM_ROWS
             row = chr(ord(row) + 1)
 
     def in_bounds(self, start_position, ship_size, orientation):
@@ -282,8 +282,8 @@ class Game:
         row = "Z"
         while ord(row) not in range(ord("A"), ord("J") + 1):
             row = input("Enter a row: ")
-        column = 100
-        while column not in range(10):
+        column = 100 # a random value outside the range to start the while loop
+        while column not in range(NUM_COL):
             column = int(input("Enter a column: "))
         position = (row, column)
         return position
